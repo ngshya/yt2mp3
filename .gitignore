@@ -89,6 +89,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+yt2mp3-env
 
 # Spyder project settings
 .spyderproject
@@ -102,3 +103,12 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# settings
+settings.json
+
+# vlist file
+vlist.pickle
+
+# mp3
+mp3
