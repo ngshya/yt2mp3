@@ -27,6 +27,7 @@ def yt2mp3():
     difflist = list(set(vlist).difference(set(oldlist)))
     vlist = list(set(vlist).union(set(oldlist)))
     
+
     if len(difflist) > 0:
         for x in difflist:
             exec_string = 'cd mp3 && youtube-dl --ignore-errors --skip-unavailable-fragments --no-overwrites --max-filesize 1g --extract-audio --audio-format "mp3" https://www.youtube.com/watch?v=' + x
